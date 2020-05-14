@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ff0000' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.card {
+	display: flex;
+	align-items: stretch;
+	border: 2px solid;
+}
+
+.title {
+	background-color: #2D283E;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 10px;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+	margin: 0;
+	width: 150px;
+	height: auto;
+}
+
+.headings {
+	margin: 0;
+	padding: 10px;
+}
+
+.review {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	color: #D1D7E0;
+	display: flex;
+	background-color: #564F6F;
+	margin: 0;
+	padding: 10px;
+	flex: 1;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.artist {
+	color: #D1D7E0;
+	font-size: 2rem;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+}
+
+.album {
+	font-size: 1.5rem;
+	color: #802BB1;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+}
+
+.links {
+	margin: 0;
+	flex-wrap: wrap;
+	padding: 5px;
+}
+
+.meta {
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.card {
+		flex-direction: column;
+		align-items: stretch;
+		align-content: flex-start;
+	}
+
+	.links {
+	display:flex;
+	flex-direction: column;
+	margin: 0;
+	flex-wrap: wrap;
+	padding: 5px;
+	}
+
+	.button {
+	color: white;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	margin: 10px;
+	text-align: center;
+	}
+
+}
+
+.button {
+	color: white;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+
+.top {
+	padding: 10px;
+	width: 100%;
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	line-height: .5rem;
+}
